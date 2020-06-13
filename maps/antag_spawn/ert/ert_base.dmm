@@ -9,33 +9,30 @@
 /turf/simulated/floor/wood,
 /area/map_template/rescue_base/base)
 "ad" = (
-/obj/structure/table/rack/shelf/steel,
-/obj/item/ammo_magazine/rifle,
-/obj/item/ammo_magazine/rifle,
-/obj/item/ammo_magazine/rifle,
-/obj/item/ammo_magazine/rifle,
-/obj/item/ammo_magazine/rifle,
-/obj/item/ammo_magazine/rifle,
+/mob/living/exosuit/premade/heavy,
 /turf/unsimulated/floor{
 	icon_state = "dark"
 	},
 /area/map_template/rescue_base/base)
 "ae" = (
 /obj/structure/table/rack/shelf/steel,
-/obj/item/weapon/melee/energy/sword,
-/obj/item/weapon/shield/energy,
+/obj/item/weapon/gun/projectile/automatic/assault_rifle,
+/obj/item/ammo_magazine/rifle,
+/obj/item/ammo_magazine/rifle,
+/obj/item/ammo_magazine/rifle,
+/obj/item/ammo_magazine/rifle,
+/obj/item/ammo_magazine/rifle,
+/obj/item/ammo_magazine/rifle,
 /obj/item/weapon/reagent_containers/hypospray/autoinjector/stim,
-/obj/item/weapon/reagent_containers/hypospray/autoinjector/stim,
-/obj/item/weapon/reagent_containers/hypospray/autoinjector/stim,
-/obj/item/weapon/reagent_containers/hypospray/autoinjector/zerk,
-/obj/item/weapon/reagent_containers/hypospray/autoinjector/zerk,
-/obj/item/weapon/reagent_containers/hypospray/autoinjector/zerk,
+/obj/item/weapon/storage/backpack/ert/security,
+/obj/item/weapon/grenade/frag/high_yield,
+/obj/item/weapon/grenade/frag/high_yield,
 /turf/unsimulated/floor{
 	icon_state = "dark"
 	},
 /area/map_template/rescue_base/base)
 "af" = (
-/mob/living/exosuit/premade/heavy,
+/obj/random/vendor,
 /turf/unsimulated/floor{
 	icon_state = "dark"
 	},
@@ -106,20 +103,12 @@
 "am" = (
 /turf/simulated/floor/wood/mahogany,
 /area/map_template/rescue_base/base)
-"an" = (
-/obj/structure/table/rack/shelf/steel,
-/obj/item/weapon/pinpointer/nukeop,
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
-/area/map_template/rescue_base/base)
 "ao" = (
 /obj/structure/table/rack/dark,
 /obj/structure/window/reinforced,
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/obj/item/rig_module/device/rcd,
 /obj/item/weapon/rcd_ammo/large,
 /obj/item/weapon/rcd_ammo/large,
 /obj/item/weapon/reagent_containers/glass/bottle/thermite{
@@ -140,6 +129,7 @@
 /obj/item/weapon/reagent_containers/glass/bottle/thermite{
 	name = "thermite bottle"
 	},
+/obj/item/weapon/rcd,
 /turf/unsimulated/floor{
 	icon_state = "dark"
 	},
@@ -158,6 +148,7 @@
 /obj/item/borg/sight/hud/sec,
 /obj/item/weapon/storage/belt/utility/full,
 /obj/item/weapon/storage/backpack/ert/engineer,
+/obj/item/weapon/card/id/centcom/deathsquad,
 /turf/unsimulated/floor{
 	icon_state = "dark"
 	},
@@ -205,6 +196,7 @@
 /obj/item/weapon/storage/belt/security,
 /obj/item/weapon/melee/baton/loaded,
 /obj/item/weapon/crowbar/prybar,
+/obj/item/weapon/card/id/centcom/deathsquad,
 /turf/unsimulated/floor{
 	icon_state = "dark"
 	},
@@ -249,8 +241,12 @@
 /obj/item/weapon/reagent_containers/glass/bottle/chloralhydrate,
 /obj/item/weapon/reagent_containers/glass/bottle/inaprovaline,
 /obj/item/weapon/reagent_containers/glass/bottle/inaprovaline,
-/obj/item/weapon/reagent_containers/glass/bottle/adrenaline,
-/obj/item/weapon/reagent_containers/glass/bottle/adrenaline,
+/obj/item/weapon/reagent_containers/glass/bottle/adrenaline{
+	name = "adrenaline bottle"
+	},
+/obj/item/weapon/reagent_containers/glass/bottle/adrenaline{
+	name = "adrenaline bottle"
+	},
 /obj/item/weapon/storage/pill_bottle/bicaridine,
 /obj/item/weapon/storage/pill_bottle/dermaline,
 /obj/item/weapon/storage/pill_bottle/dexalin_plus,
@@ -258,6 +254,10 @@
 /obj/item/bodybag/cryobag,
 /obj/item/bodybag/cryobag,
 /obj/item/weapon/storage/firstaid/surgery,
+/obj/item/stack/medical/advanced/bruise_pack,
+/obj/item/stack/medical/advanced/bruise_pack,
+/obj/item/stack/medical/advanced/ointment,
+/obj/item/stack/medical/advanced/ointment,
 /turf/unsimulated/floor{
 	icon_state = "dark"
 	},
@@ -273,8 +273,9 @@
 /obj/item/clothing/accessory/storage/white_vest,
 /obj/item/borg/sight/hud/med,
 /obj/item/weapon/storage/belt/medical,
-/obj/item/weapon/storage/backpack/ert/medical,
 /obj/item/weapon/crowbar/prybar,
+/obj/item/weapon/storage/backpack/dufflebag/med,
+/obj/item/weapon/card/id/centcom/deathsquad,
 /turf/unsimulated/floor{
 	icon_state = "dark"
 	},
@@ -362,6 +363,13 @@
 /obj/item/ammo_casing/rocket/rcr,
 /obj/item/ammo_casing/rocket/rcr,
 /obj/item/ammo_casing/rocket/rcr,
+/obj/item/ammo_casing/rocket,
+/obj/item/ammo_casing/rocket,
+/obj/item/ammo_casing/rocket,
+/obj/item/ammo_casing/rocket,
+/obj/item/weapon/rcd_ammo/large,
+/obj/item/weapon/rcd_ammo/large,
+/obj/item/rig_module/device/rcd,
 /turf/unsimulated/floor{
 	icon_state = "dark"
 	},
@@ -375,15 +383,14 @@
 	},
 /obj/item/clothing/under/solgov/utility/fleet/combat,
 /obj/item/weapon/card/id/centcom/deathsquad,
-/obj/item/clothing/shoes/jackboots,
 /obj/item/weapon/gun/projectile/pistol/magnum_pistol/solar/loaded,
 /obj/item/ammo_magazine/magnum,
 /obj/item/ammo_magazine/magnum,
-/obj/item/clothing/accessory/storage/holster/thigh,
 /obj/item/weapon/rig/military/deathsquad,
 /obj/item/clothing/shoes/swat,
 /obj/item/clothing/gloves/thick/swat,
 /obj/item/clothing/mask/gas/swat,
+/obj/item/weapon/storage/belt/holster/offsite,
 /turf/unsimulated/floor{
 	icon_state = "dark"
 	},
@@ -400,11 +407,33 @@
 /area/map_template/rescue_base/base)
 "bm" = (
 /obj/structure/table/rack/shelf/steel,
-/obj/item/weapon/gun/energy/pulse_rifle/deathsquad,
-/obj/item/weapon/grenade/frag/high_yield,
-/obj/item/weapon/grenade/frag/high_yield,
 /obj/item/weapon/reagent_containers/hypospray/autoinjector/stim,
 /obj/item/weapon/storage/backpack/dufflebag/syndie/med,
+/obj/item/weapon/reagent_containers/hypospray/autoinjector/stim,
+/obj/item/weapon/reagent_containers/hypospray/autoinjector/stim,
+/obj/item/weapon/reagent_containers/hypospray/autoinjector/stim,
+/obj/item/weapon/storage/pill_bottle/bicaridine,
+/obj/item/weapon/storage/pill_bottle/dermaline,
+/obj/item/weapon/storage/pill_bottle/inaprovaline,
+/obj/item/stack/medical/advanced/bruise_pack,
+/obj/item/stack/medical/advanced/bruise_pack,
+/obj/item/stack/medical/advanced/ointment,
+/obj/item/stack/medical/advanced/ointment,
+/obj/item/weapon/reagent_containers/glass/bottle/adrenaline{
+	name = "adrenaline bottle"
+	},
+/obj/item/weapon/reagent_containers/glass/bottle/adrenaline{
+	name = "adrenaline bottle"
+	},
+/obj/item/weapon/reagent_containers/hypospray,
+/obj/item/weapon/defibrillator/compact/combat,
+/obj/item/bodybag/cryobag,
+/obj/item/bodybag/cryobag,
+/obj/item/weapon/gun/projectile/automatic,
+/obj/item/ammo_magazine/proto_smg,
+/obj/item/ammo_magazine/proto_smg,
+/obj/item/ammo_magazine/proto_smg,
+/obj/item/ammo_magazine/proto_smg,
 /turf/unsimulated/floor{
 	icon_state = "dark"
 	},
@@ -440,7 +469,9 @@
 /obj/item/weapon/grenade/frag/high_yield,
 /obj/item/weapon/reagent_containers/hypospray/autoinjector/stim,
 /obj/item/weapon/storage/backpack/ert/security,
-/obj/item/weapon/gun/energy/pulse_rifle/destroyer,
+/obj/item/weapon/gun/energy/pulse_rifle/deathsquad,
+/obj/item/weapon/pinpointer/nukeop,
+/obj/item/clothing/glasses/thermal,
 /turf/unsimulated/floor{
 	icon_state = "dark"
 	},
@@ -464,11 +495,24 @@
 /area/map_template/rescue_base/base)
 "bK" = (
 /obj/structure/table/rack/shelf/steel,
-/obj/item/weapon/gun/projectile/automatic/assault_rifle,
-/obj/item/weapon/grenade/frag/high_yield,
-/obj/item/weapon/grenade/frag/high_yield,
-/obj/item/weapon/reagent_containers/hypospray/autoinjector/stim,
 /obj/item/weapon/storage/backpack/ert/security,
+/obj/item/weapon/reagent_containers/hypospray/autoinjector/stim,
+/obj/item/weapon/gun/projectile/heavysniper,
+/obj/item/ammo_casing/shell,
+/obj/item/ammo_casing/shell,
+/obj/item/ammo_casing/shell,
+/obj/item/ammo_casing/shell,
+/obj/item/ammo_casing/shell,
+/obj/item/ammo_casing/shell,
+/obj/item/ammo_casing/shell,
+/obj/item/ammo_casing/shell,
+/obj/item/ammo_casing/shell,
+/obj/item/ammo_casing/shell,
+/obj/item/ammo_casing/shell,
+/obj/item/ammo_casing/shell,
+/obj/item/ammo_casing/shell,
+/obj/item/ammo_casing/shell,
+/obj/item/clothing/accessory/storage/bandolier,
 /turf/unsimulated/floor{
 	icon_state = "dark"
 	},
@@ -539,6 +583,7 @@
 /obj/item/weapon/storage/belt/security,
 /obj/item/weapon/melee/baton/loaded,
 /obj/item/weapon/crowbar/prybar,
+/obj/item/weapon/card/id/centcom/deathsquad,
 /turf/unsimulated/floor{
 	icon_state = "dark"
 	},
@@ -566,10 +611,11 @@
 /obj/item/weapon/tank/hydrogen,
 /obj/item/weapon/tank/hydrogen,
 /obj/item/weapon/reagent_containers/spray/cleaner,
-/obj/item/weapon/storage/backpack/ert/security,
 /obj/item/borg/sight/hud/sec,
 /obj/item/weapon/storage/belt/security,
 /obj/item/weapon/crowbar/prybar,
+/obj/item/weapon/storage/backpack/dufflebag,
+/obj/item/weapon/card/id/centcom/deathsquad,
 /turf/unsimulated/floor{
 	icon_state = "dark"
 	},
@@ -807,7 +853,7 @@
 /area/map_template/rescue_base/base)
 "ei" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/machinery/portable_atmospherics/powered/pump/filled,
+/obj/structure/closet/firecloset,
 /turf/unsimulated/floor{
 	icon_state = "dark"
 	},
@@ -1109,8 +1155,8 @@
 /area/map_template/rescue_base/start)
 "fl" = (
 /obj/machinery/computer/modular/preset/medical{
-	icon_state = "console";
-	dir = 4
+	dir = 4;
+	icon_state = "console"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/start)
@@ -1152,8 +1198,8 @@
 /area/map_template/rescue_base/start)
 "fr" = (
 /obj/machinery/computer/modular/preset/security{
-	icon_state = "console";
-	dir = 8
+	dir = 8;
+	icon_state = "console"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/start)
@@ -1413,6 +1459,10 @@
 	pixel_x = 24;
 	pixel_y = -4
 	},
+/obj/item/weapon/tank/jetpack/carbondioxide,
+/obj/item/weapon/tank/jetpack/carbondioxide,
+/obj/item/weapon/tank/jetpack/carbondioxide,
+/obj/item/weapon/tank/jetpack/carbondioxide,
 /turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/start)
 "fY" = (
@@ -1873,11 +1923,21 @@
 /area/map_template/rescue_base/base)
 "ht" = (
 /obj/structure/table/rack/shelf/steel,
-/obj/item/weapon/gun/energy/pulse_rifle/deathsquad,
-/obj/item/weapon/grenade/frag/high_yield,
-/obj/item/weapon/grenade/frag/high_yield,
 /obj/item/weapon/reagent_containers/hypospray/autoinjector/stim,
 /obj/item/weapon/storage/backpack/ert/security,
+/obj/item/weapon/flamethrower/full,
+/obj/item/weapon/tank/hydrogen,
+/obj/item/weapon/tank/hydrogen,
+/obj/item/weapon/tank/hydrogen,
+/obj/item/rig_module/grenade_launcher/combat,
+/obj/item/clothing/accessory/storage/bandolier,
+/obj/item/weapon/grenade/frag/high_yield,
+/obj/item/weapon/grenade/frag/high_yield,
+/obj/item/weapon/grenade/frag/high_yield,
+/obj/item/weapon/grenade/frag/high_yield,
+/obj/item/weapon/grenade/supermatter,
+/obj/item/weapon/grenade/empgrenade,
+/obj/item/weapon/grenade/empgrenade,
 /turf/unsimulated/floor{
 	icon_state = "dark"
 	},
@@ -3344,11 +3404,11 @@ aa
 aa
 aa
 ab
-an
+aq
 ad
 ae
 aq
-af
+aq
 ab
 aq
 aq
@@ -3487,9 +3547,9 @@ ab
 aq
 aq
 bf
-aq
+cn
 ap
-aq
+cn
 ax
 cU
 ab
@@ -3621,9 +3681,9 @@ ab
 aq
 aq
 bf
-aq
+cn
 at
-aq
+cn
 at
 cU
 di
@@ -3755,9 +3815,9 @@ ab
 aq
 aq
 ab
-aq
+cn
 cx
-aq
+cn
 cN
 cU
 di
@@ -4297,7 +4357,7 @@ ab
 aa
 aa
 ab
-aq
+af
 aq
 di
 di
@@ -4364,7 +4424,7 @@ ab
 aa
 aa
 ab
-aq
+af
 aq
 di
 aH
@@ -4431,7 +4491,7 @@ ab
 aa
 aa
 ab
-aq
+af
 aq
 ab
 ab
